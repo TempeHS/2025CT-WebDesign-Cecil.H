@@ -18,7 +18,8 @@
 				"editor.fontSize": 18
 			},
 			"extensions": [
-				"yy0931.vscode-sqlite3-editor",
+				
+				,"yy0931.vscode-sqlite3-editor"
 				"ecmel.vscode-html-css",
 				"McCarter.start-git-bash",
 				"ms-vscode.js-debug-nightly",
