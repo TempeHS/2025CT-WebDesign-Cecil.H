@@ -1,6 +1,11 @@
-let myIntro = 15;
-let enterName = 15;
-if (myIntro == enterName) {
-    
+let entername = prompt("entername");
+loadDIV ();
+
+
+
+function loadDIV() {
+
 }
-alert(myIntro + enterName);
+document.getElementById("ScriptThisDIV").innerHTML = "<H1>hello " + entername+ "</H1>"
+document.getElementById("ScriptThisDIV").innerHTML = "<H1>hello" + entername + "</H1><H2>Guess a Number"
+document.getElementById("ScriptThisDIV").innerHTML = "<H1>hello" + entername + "</H1><H2>Guess a Number" + playFeedback
